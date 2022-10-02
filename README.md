@@ -38,11 +38,13 @@
 ### BOJ
 - 백준에서 매주 커리큘럼에 맞는 필수 문제 풀기
 - 백준 그룹 [22-23 GDSC Sookmyung](https://www.acmicpc.net/group/practice/15799)에 필수 문제 + 선택 문제 업로드
+> ⭐️ C++로만 푸실 필요는 없습니다. Python이나 Java 등의 다른 언어들을 사용하셔도 됩니다.
 ### Github
 1. 2022-02-Algorithm-Study 레포지터리를 clone 후 본인의 github username으로 branch 생성
-2. 주차별 폴더(ex. 01-BruteForce-and-Backtracking)에 개인 백준 아이디(ex. suhee0206)으로 폴더를 생성
-3. 개인 폴더 안에 코드를 작성하되, 파일 명은 알파벳 번호-문제번호로 생성(ex.A-2309.cpp)
-4. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 [이름]2022 GDSC algorithm study_1주차 형식
+2. 주차별 폴더(ex. `01-BruteForce-and-Backtracking`)에 개인 백준 아이디(ex. `suhee0206`)으로 폴더를 생성
+3. 개인 폴더 안에 코드를 작성하되, 파일 명은 알파벳 번호-문제번호로 생성(ex. `A-2309.cpp`)<br />
+```01-BruteForce-and-Backtracking/suhee0206/A-2309.cpp```
+4. 마지막으로 main branch에 Pull Request 해주시면 됩니다. PR 명은 `[이름]22-23 GDSC algorithm study_1주차` 형식
 ### 팀블로그 작성
 가나다 순서로 작성해주세요
 - 김은지-문유진-신지연-윤재은-정영주
