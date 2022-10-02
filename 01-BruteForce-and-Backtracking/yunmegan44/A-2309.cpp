@@ -32,4 +32,6 @@ int main() {
 			cout << arr9[i] << endl;
 		}
 	}
+
+	return 0;
 }

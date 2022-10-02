@@ -26,7 +26,5 @@ int main()
 		cout << 144;
 	}
 
-
-
 	return 0;
 }
