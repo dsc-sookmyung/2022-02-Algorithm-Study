@@ -11,19 +11,25 @@ C++의 algorithm 헤더에 sort() 함수가 포함되어 있다. sort() 함수�
 2. *sort(배열의 시작점 주소, 배열의 마지막 주소 + 1, greater<>())* 이면 내림차순 정렬
 3. *sort(배열의 시작점 주소, 배열의 마지막 주소 + 1, compare)* 이면 사용자 정의 함수로 정렬
 
+```c++
+#include <iostream>
+#include <algorithm>
 
-	#include <iostream>
-	#include <algorithm>
+using namespace std;
 
-	using namespace std;
+int main() {
+	int a[10] = {9, 3, 5, 4, 1, 10, 8, 5, 7, 2};
+    	sort(a, a + 10);
+	for (int i = 0; i < 10; i++) {
+		cout << a[i] << ' ';
+    	}
+}
+```
 
-	int main() {
-		int a[10] = {9, 3, 5, 4, 1, 10, 8, 5, 7, 2};
-    		sort(a, a + 10);
-    		for (int i = 0; i < 10; i++) {
-    			cout << a[i] << ' ';
-    		}
-	}
+결과
+```c++
+1 2 3 4 5 5 7 8 9 10
+```
 
 </hr>
 
