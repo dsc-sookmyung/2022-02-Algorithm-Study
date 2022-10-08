@@ -11,20 +11,19 @@ C++의 algorithm 헤더에 sort() 함수가 포함되어 있다. sort() 함수�
 2. *sort(배열의 시작점 주소, 배열의 마지막 주소 + 1, greater<>())* 이면 내림차순 정렬
 3. *sort(배열의 시작점 주소, 배열의 마지막 주소 + 1, compare)* 이면 사용자 정의 함수로 정렬
 
-'''
-#include <iostream>
-#include <algorithm>
 
-using namespace std;
+	#include <iostream>
+	#include <algorithm>
 
-int main() {
-	int a[10] = {9, 3, 5, 4, 1, 10, 8, 5, 7, 2};
-    sort(a, a + 10);
-    for (int i = 0; i < 10; i++) {
-    	cout << a[i] << ' ';
-    }
-}
-'''
+	using namespace std;
+
+	int main() {
+		int a[10] = {9, 3, 5, 4, 1, 10, 8, 5, 7, 2};
+    		sort(a, a + 10);
+    		for (int i = 0; i < 10; i++) {
+    			cout << a[i] << ' ';
+    		}
+	}
 
 </hr>
 
@@ -33,9 +32,9 @@ int main() {
 
 |번호|이름  |
 |--|--|
-**|2751  |[수 정렬하기 2](https://www.acmicpc.net/problem/2751)  |**
-**|10825  |[국영수](https://www.acmicpc.net/problem/10825)  |**
-**|11582  |[치킨 TOP N](https://www.acmicpc.net/problem/11582)  |**
+|**2751**  |[수 정렬하기 2](https://www.acmicpc.net/problem/2751)  |
+|**10825**  |[국영수](https://www.acmicpc.net/problem/10825)  |
+|**11582**  |[치킨 TOP N](https://www.acmicpc.net/problem/11582)  |
 |8870  |[좌표압축](https://www.acmicpc.net/problem/8870)  |
 |1517  |[버블소트](https://www.acmicpc.net/problem/1517)  |
 |16496  |[큰 수의 만들기](https://www.acmicpc.net/problem/16496)  |
