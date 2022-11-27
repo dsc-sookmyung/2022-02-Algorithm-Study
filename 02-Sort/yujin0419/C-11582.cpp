@@ -31,10 +31,6 @@ void Chicken::merge(vector<int>& nums, int left, int middle, int right) {
 
 	while (i <= middle) tmp[k++] = nums[i++];
 	while (j <= right) tmp[k++] = nums[j++];
-
-	for (i = 0; i < k; i++) {
-		nums[left + i] = tmp[i];
-	}
 }
 
 void Chicken::mergeSort(vector<int>& nums, int left, int right) {
