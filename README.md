@@ -5,7 +5,7 @@
 
 ## 스터디원
 ### 🙋🏻‍♀️ 스터디 Lead
-- [남수연](https://github.com/mori8)
+- [남수연](https://github.com/mori8), [서희](https://github.com/0hee0)
 ### 👩🏻‍💻 스터디 참여 Member
 - [김은지](https://github.com/Eundongdong)
 - [문유진](https://github.com/genieu99)
@@ -27,11 +27,11 @@
 | <ul><li>- [x] </li></ul> | 1주차 | 브루트 포스와 백트래킹 |
 | <ul><li>- [x] </li></ul> | 2주차 | 정렬 |
 | <ul><li>- [x] </li></ul> | 3주차 | 스택 |
-| <ul><li>- [ ] </li></ul> | 4주차 | 큐와 덱 |
-| <ul><li>- [ ] </li></ul> | 5주차 | 다이나믹 프로그래밍 |
-| <ul><li>- [ ] </li></ul> | 6주차 | 이분탐색과 파라메트릭 탐색 |
-| <ul><li>- [ ] </li></ul> | 7주차 | DFS와 BFS |
-| <ul><li>- [ ] </li></ul> | 8주차 | Set, Map, Dictionary |
+| <ul><li>- [x] </li></ul> | 4주차 | 큐와 덱 |
+| <ul><li>- [x] </li></ul> | 5주차 | 다이나믹 프로그래밍 |
+| <ul><li>- [x] </li></ul> | 6주차 | 이분탐색과 파라메트릭 탐색 |
+| <ul><li>- [x] </li></ul> | 7주차 | DFS와 BFS |
+| <ul><li>- [x] </li></ul> | 8주차 | Set, Map, Dictionary |
 
 
 ## 💻 과제
